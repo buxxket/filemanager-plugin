@@ -4,7 +4,13 @@ A simple plugin that allows for easy navigation of a file tree.
 
 ![Example picture](./example.jpg?raw=true "Example")
 
-**Installation:** run `plugin install filemanager` and restart Micro.
+## Installation
+Run this in your terminal
+```
+cd ~/.config/micro/plug/`
+git clone https://github.com/buxxket/filemanager-plugin.git filemanager
+```
+and restart Micro.
 
 ## Basics
 
