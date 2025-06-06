@@ -12,6 +12,12 @@ git clone https://github.com/buxxket/filemanager-plugin.git filemanager
 ```
 and restart Micro.
 
+If you get an error saying the folder already exists, run:
+```
+rm -rf ~/.config/micro/plug/filemanager
+```
+to remove the existing filemanager plugin installation.
+
 ## Basics
 
 The top line always has the current directory's path to show you where you are.\
