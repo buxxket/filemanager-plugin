@@ -29,14 +29,23 @@ If the directory is expanded, there will be a `+` to the left of it. If it is co
 **NOTE:** If you change files without using the plugin, it can't know what you did. The only fix is to close and open the tree.
 
 ### Options
+You can add the following options to `~/.config/micro/settings.json` to change the behaviour of micro:
 
 | Option                       | Purpose                                                      | Default |
 | :--------------------------- | :----------------------------------------------------------- | :------ |
-| `filemanager-showdotfiles`   | Show dotfiles (hidden if false)                              | `true`  |
-| `filemanager-showignored`    | Show gitignore'd files (hidden if false)                     | `true`  |
-| `filemanager-compressparent` | Collapse the parent dir when left is pressed on a child file | `true`  |
-| `filemanager-foldersfirst`   | Sorts folders above any files                                | `true`  |
-| `filemanager-openonstart`    | Automatically open the file tree when starting Micro         | `false` |
+| `filemanager.showdotfiles`   | Show dotfiles (hidden if false)                              | `true`  |
+| `filemanager.showignored`    | Show gitignore'd files (hidden if false)                     | `true`  |
+| `filemanager.compressparent` | Collapse the parent dir when left is pressed on a child file | `true`  |
+| `filemanager.foldersfirst`   | Sorts folders above any files                                | `true`  |
+| `filemanager.openonstart`    | Automatically open the file tree when starting Micro         | `false` |
+
+For example:
+```
+{
+    "filemanager.showdotfiles": true,
+    "filemanager.openonstart": true
+}
+```
 
 ### Commands and Keybindings
 
